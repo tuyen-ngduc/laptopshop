@@ -33,6 +33,6 @@ public class UserController {
 
     @RequestMapping("/")
     public String getHomePage() {
-        return "demo.html";
+        return "hello";
     }
 }
